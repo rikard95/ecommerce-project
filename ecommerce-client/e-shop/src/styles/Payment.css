@@ -1,0 +1,74 @@
+
+.payment-container {
+  background-color: rgb(30, 0, 0);
+  box-shadow: 1px 1px 5px 10px rgba(92, 9, 4, 0.595);
+  border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .back{
+      margin-top: 10px;
+    }
+  }
+    li {
+      background-color: black;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 5px;
+      img{
+        border-radius: 5px;
+      }
+    }
+  }
+  
+  
+  .payment-container h2 {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .payment-container p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .payment-container h3 {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .payment-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .payment-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .payment-container li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .payment-container button {
+    background-color: #641200;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .payment-container button:hover {
+    background-color: #2e0000;
+  }
+  

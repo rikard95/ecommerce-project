@@ -1,0 +1,62 @@
+
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    button{
+        margin-left: 5px;
+    }
+}
+
+.checkout-container img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.checkout-list {
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+    list-style: none;
+}
+
+.checkout-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    gap: 50px; 
+}
+
+.checkout-list li span {
+    flex-grow: 1;
+    padding-right: 100px; 
+    white-space: nowrap;
+}
+
+.CheckRemoveBtn {
+    background-color: rgb(91, 0, 0);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-left: auto; 
+}
+
+.contactForm{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    input{
+        margin: 5px;
+        width: 100%;
+    }
+}
